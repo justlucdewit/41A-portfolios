@@ -1,1 +1,60 @@
-*{}
+@font-face{
+	font-family: Roboto;
+	src: url("Roboto.woff");
+}
+
+*{
+	font-family: Roboto;
+}
+
+.A19-Header{
+	text-align: center;
+	border: 1px solid black;
+}
+
+.A19-nav>ul>li{
+	display: inline;
+}
+
+.A19-nav>ul>li>a{
+	color: black;
+	text-decoration: none;
+}
+
+.A19-nav>ul>li:hover{
+	text-decoration: underline;
+}
+
+.A19-nav>ul{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+.A19-link-cards>ul>li{
+	border: 1px solid black;
+	display: inline;
+	width: 25%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.A19-link-cards>ul>li>a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.A19-link-cards>li:hover{
+	text-decoration: underline;
+}
+
+.A19-link-cards>ul{
+	width: 90%;
+	list-style: none;
+}
