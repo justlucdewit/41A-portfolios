@@ -1,14 +1,50 @@
 #header{
-    background-color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 20px;
 }
 hr{
     background-color: aquamarine;
 }
 
 body{
-    background-color: aquamarine;
+    background-color: white;
 }
 
 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    position: relative;
+    top: 50px;
     color: black;
+}
+
+#menu ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin:0px;
+    padding:10px;
+    overflow: hidden;
+    background-color: rgb(29, 29, 29)
+}
+#menu li{
+    float: left;
+}
+#menu li a{
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: white;
+    width:120px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: blue;
+}
+
+.active{
+    background: blue;
 }
