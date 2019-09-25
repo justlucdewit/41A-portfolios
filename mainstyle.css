@@ -7,13 +7,20 @@
 	font-family: Roboto;
 }
 
+
+
+
 .A19-Header{
 	text-align: center;
-	border: 1px solid black;
+	border: 3px solid black;
 }
+
+
+
 
 .A19-nav>ul>li{
 	display: inline;
+	margin: 10px;
 }
 
 .A19-nav>ul>li>a{
@@ -38,7 +45,7 @@
 
 .A19-link-cards>ul>li{
 	border: 1px solid black;
-	display: inline;
+	display: inline-block;
 	width: 25%;
 	margin: 10px;
 	padding: 10px;
@@ -50,11 +57,18 @@
 	padding: 10px;
 }
 
-.A19-link-cards>li:hover{
+.A19-link-cards>ul>li:hover{
 	text-decoration: underline;
+	background-color: #629CFB;
 }
 
 .A19-link-cards>ul{
 	width: 90%;
 	list-style: none;
+	text-align: center;
+}
+
+.mainbg{
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
