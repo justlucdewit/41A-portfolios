@@ -7,10 +7,16 @@
 	font-family: Roboto;
 }
 
+
+
+
 .A19-Header{
 	text-align: center;
-	border: 1px solid black;
+	border: 3px solid black;
 }
+
+
+
 
 .A19-nav>ul>li{
 	display: inline;
@@ -38,7 +44,7 @@
 
 .A19-link-cards>ul>li{
 	border: 1px solid black;
-	display: inline;
+	display: inline-block;
 	width: 25%;
 	margin: 10px;
 	padding: 10px;
