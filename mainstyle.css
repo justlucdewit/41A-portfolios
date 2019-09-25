@@ -5,35 +5,44 @@
 
 *{
 	font-family: Roboto;
+	padding: 0px;
+	margin: 0px;
 }
 
 
 
 
 .A19-Header{
+	padding: 60px;
 	text-align: center;
-	border: 3px solid black;
+	background-color: #0A81BE;
+	color: white;
+	font-size: 30px;
 }
 
 
 
 
+.A19-nav>ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #0A81BE;
+}
+
 .A19-nav>ul>li{
-	display: inline;
-	margin: 10px;
+	float: left;
 }
 
 .A19-nav>ul>li>a{
-	color: black;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 20px;
 	text-decoration: none;
 }
 
-.A19-nav>ul>li:hover{
-	text-decoration: underline;
-}
-
-.A19-nav>ul{
-	list-style: none;
+.A19-nav>ul>li>a:hover{
+	background-color: #0FB9BF;
 }
 
 
@@ -46,29 +55,25 @@
 .A19-link-cards>ul>li{
 	border: 1px solid black;
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	margin: 10px;
 	padding: 10px;
+	height: 100px;
+	overflow: auto;
 }
 
 .A19-link-cards>ul>li>a{
+	text-align: left;
 	color: black;
 	text-decoration: none;
 	padding: 10px;
 }
 
-.A19-link-cards>ul>li:hover{
-	text-decoration: underline;
-	background-color: #629CFB;
-}
-
 .A19-link-cards>ul{
 	width: 90%;
 	list-style: none;
-	text-align: center;
 }
 
 .mainbg{
-	background: rgb(238,174,202);
-	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+	background-color: #A7CAD4;
 }
