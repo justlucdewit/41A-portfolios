@@ -18,7 +18,9 @@
 	font-size: 30px;
 }
 
-
+.A19-nav>ul>li:last-child{
+	float: right;
+}
 
 
 .A19-nav>ul{
