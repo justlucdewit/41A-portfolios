@@ -1,3 +1,7 @@
+https://raw.githubusercontent.com/justlucdewit/41A-portfolios/master/CONTRIBUTING.md
+
+
+
 Voor de index.html moet het format er zo uit zien:
 <!DOCTYPE HTML>
 <html lang="nl">
