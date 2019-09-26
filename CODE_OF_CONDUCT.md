@@ -1,11 +1,12 @@
 41A code of conduct:
 #Door het werken aan dit bestand ga je akoord met onze huisregels deze luiden als volgt:
 
-*Je past de index.html en mainstyle.css in de hoofd folder niet aan zonder toestemming van justlucdewit of xtpn.
-*Je maakt gebruik van de styling en template die wordt geleverd door justlucdewit en xtpn.
+*Je past de index.html en mainstyle.css in de hoofd folder niet aan zonder toestemming van justlucdewit of xtpn.             
+*Je maakt gebruik van de styling en template die wordt geleverd door justlucdewit en xtpn.                 
 *Je gaat geen aanpassing maken in andere hun bestanden zonder toestemming van die persoon, justlucdewit of xtpn.
-*Je maakt gebruik van het roboto font.
-*Je bestanden mogen gebruikt en ingezien worden door 3de partijen.
+
+*Je maakt gebruik van het roboto font.                      
+*Je bestanden mogen gebruikt en ingezien worden door 3de partijen (zie licensing voor meer info).
 
 
 Github code of conduct:
