@@ -1,5 +1,5 @@
 41A code of conduct:
-##Door het werken aan dit bestand ga je akoord met onze huisregels deze luiden als volgt:
+#Door het werken aan dit bestand ga je akoord met onze huisregels deze luiden als volgt:
 
 *Je past de index.html en mainstyle.css in de hoofd folder niet aan zonder toestemming van justlucdewit of xtpn.
 *Je maakt gebruik van de styling en template die wordt geleverd door justlucdewit en xtpn.
