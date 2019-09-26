@@ -1,6 +1,10 @@
 Voor de index.html moet het format er zo uit zien:
-
-<!--<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html>
+    <head>
+    </head>
+    <body>
+<p><!DOCTYPE HTML>
 <html lang="nl">
     <head>
         <meta charset="utf-8">
@@ -24,6 +28,8 @@ Voor de index.html moet het format er zo uit zien:
            </nav>
         <p>Dit is een webpagina die vertelt wie ik ben en wat ik kan</p>
     </body>
+    </html>
+<p>
+    </body>
 </html>
--->
 De rest is editable naar eigen wens
