@@ -1,0 +1,18 @@
+#header{
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    top: 20px;
+}
+
+
+body{
+    background-color: white;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    position: relative;
+    top: 50px;
+    color: black;
+}
