@@ -1,10 +1,16 @@
 
 body {color: green;}
-body{background-color: rgb(187, 239, 249)}
+body{background-color: rgb(200, 239, 249)}
 
 h1 {color: #06400;}
 
 h2{color :rgb(51,204,0);}
+
+h3{color: black}
+h3{text-shadow: 1px 1px 1px #FF0000}
+h3.serif{
+	font-family: "Caesar Dressing", Times
+}
 
 i{color: rgb(255,0,0);}
 
@@ -21,4 +27,4 @@ b{color: blue;}
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
- border-radius: 8px;
+  border-radius: 8px;
