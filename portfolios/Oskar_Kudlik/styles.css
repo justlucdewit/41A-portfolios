@@ -14,9 +14,14 @@ i{color: rgb(255,0,0);}
 b{color: blue;}
 
 td{color: black}
-
+td{text-shadow: 2px 2px 2px #aac9f1}
 img{
 	border-radius: 15px
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .button {
