@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -1.1%;
+    background-color: lightgray;
+}
+
+div {
+    position: relative;
+    width: 1475px;
+}
+
+    /* Header */
+ul.header {
+  /*  background-color: rgb(51, 51, 51); */
+    list-style-type: none;
+    text-align: right;
+    padding-right: 3%;
+    color: white;
+    border: hidden;
+    box-shadow: 0 4px 10px 2px gray;
+    background-color: white;
+    
+}
+
+.menu {
+    float: right;
+    font-size: 1.15em;
+    margin-left: 3.125em;
+    margin-top: 2.80%;
+    margin-right: 2.65%;
+}
+
+.name {
+    float: left;
+    /* color: rgb(252, 252, 252); */
+    color: black;
+    margin-left: 1.5%;
+    font-size: 1.5625em;
+    font-size: 1.9625em;
+    margin-top: 1.5%; /* 1.7 */
+    position: sticky;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+
+p.student {
+    color: black;
+    text-align: left;
+    padding-top: 4.6%; /* 4.9 */
+    margin-left: 1.6%;
+    font-size: 1em;
+    border: hidden;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+a {
+    text-align: right;
+    /* color: rgb(252, 252, 252); */
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Link hover, active and visited */
+a:hover {
+    border-bottom: 3px solid black;
+}
+
+a:active {
+    border-bottom: 3px solid black;
+}
+a:visited {
+    color: black;
+}
+
+
