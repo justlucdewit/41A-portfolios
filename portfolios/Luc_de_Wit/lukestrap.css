@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+:root{
+	--main-bg-color: rgba(0, 0, 0, 0.95);
+	--main-color: #5dff54;
+    --main-line-thinkness: 3px;
+}
+
+*{
+    font-family: VT323;
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+  }
+  
+h2{
+    font-size: 50px;
+}
+  
+h3{
+    font-size: 50px;
+}
+  
+h4{
+    font-size: 50px;
+}
+  
+h5{
+    font-size: 50px;
+}
+  
+h6{
+    font-size: 50px;
+}
+
+body{
+	background-color: var(--main-bg-color);
+	color: var(--main-color);
+	height: 100%;
+	margin:0px;
+}
+
+a{
+	text-decoration: none;
+	list-style-type: none;
+	color: var(--main-color);
+	width: auto;
+	width: 100px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#nav > li{
+  padding: 1%;
+  list-style-type: none;
+}
+
+#nav{
+	padding: 0px;
+	padding-left: 10px;
+	width: 10%;
+  float: left;
+  margin: 10px;
+  border: var(--main-line-thinkness) solid var(--main-color);
+}
+
+#header{
+	text-align: center;
+	border: var(--main-line-thinkness) solid var(--main-color);
+	margin: 10px;
+}
+
+#footer{
+	background-color: rgba(0, 0, 0, 0);
+	text-align: right;
+	margin-top: 10px;
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: calc(95% - 10px);
+	margin: 20px;
+  z-index: -1;
+}
+
+#section{
+	float: left;
+	border: var(--main-line-thinkness) solid var(--main-color);
+	padding: 10px;
+	margin: 10px;
+	width: calc(90% - 150px);
+}
+
+@keyframes flicker {
+  0% {opacity: 0.27861;}
+  5% {opacity: 0.34769;}
+  10% {opacity: 0.23604;}
+  15% {opacity: 0.90626;}
+  20% {opacity: 0.18128;}
+  25% {opacity: 0.83891;}
+  30% {opacity: 0.65583;}
+  35% {opacity: 0.67807;}
+  40% {opacity: 0.26559;}
+  45% {opacity: 0.84693;}
+  50% {opacity: 0.96019;}
+  55% {opacity: 0.08594;}
+  60% {opacity: 0.20313;}
+  65% {opacity: 0.71988;}
+  70% {opacity: 0.53455;}
+  75% {opacity: 0.37288;}
+  80% {opacity: 0.71428;}
+  85% {opacity: 0.70419;}
+  90% {opacity: 0.7003;}
+  95% {opacity: 0.36108;}
+  100% {opacity: 0.24387;}
+}
+
+.crt::after {
+  content: " ";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 5s infinite;
+}
+.crt::before {
+  content: " ";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+@keyframes textShadow {
+    0% {text-shadow: 0.43px 0 1px rgba(0,30,255,0.5), -0.43px 0 1px rgba(255,0,80,0.3), 0 0 3px;}
+   50% {text-shadow: 0.08px 0 1px rgba(0,30,255,0.5), -0.08px 0 1px rgba(255,0,80,0.3), 0 0 3px;}
+  100% {text-shadow: 2.65px 0 5px rgba(0,30,255,0.5), -2.62px 0 1px rgba(255,0,80,0.3), 0 0 3px;}
+}
+
+.crt {
+  /*animation: textShadow 0.05s infinite;*/
+  box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+.vignette{
+  pointer-events: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 1000px 100px rgba(20,20,20,0.9) inset;
+  background: radial-gradient(rgba(0, 0, 0, 0.1) 90%, rgba(255, 255, 255, 0.7));
+}
+
+.html{
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0.2), rgba(0, 0, 0, 0) 2%);
+  color: white;
+  padding-left: 10px;
+  margin-left: 20px;
+  border-left: 5px solid var(--main-color);
+}
+
+.css{
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0.2), rgba(0, 0, 0, 0) 2%);
+  color: white;
+  padding-left: 10px;
+  margin-left: 20px;
+  border-left: 5px solid var(--main-color);
+}
+
+.js{
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0.2), rgba(0, 0, 0, 0) 2%);
+  color: white;
+  padding-left: 10px;
+  margin-left: 20px;
+  border-left: 5px solid var(--main-color);
+}
+
+.image{
+  background-image: linear-gradient(to right, rgba(0, 255, 0, 0.2), rgba(0, 0, 0, 0) 2%);
+  border-left: 5px solid var(--main-color);
+}
+
+.greentint{
+}
+
+p a{
+  color: blue;
+}
+
+::selection{
+  color: black;
+  background-color: var(--main-color);
+}
+
+@media only screen and (max-width: 1000px){
+  #nav{
+    width: calc(100% - 40px);
+  }
+
+  #nav > li{
+    width: 100px;
+    display: inline;
+  }
+}
+
+code{
+  display: block;
+}

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -1.1%;
+}
+
+
+/* Styling the header */
+div.header {
+    position: relative;
+    width: inherit;
+}
+
+ul.head {
+    list-style-type: none;
+    float: center;
+    color: black;
+    background-color: white;
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+    text-align: center;
+   
+}
+
+.name {
+    float: left;
+    margin-top: 0%;
+    color: black;
+    font-weight: bold;
+    margin-right: -7%;
+    color: black;
+    letter-spacing: 0.5px;
+    /*
+    border: 2px solid orange;
+    border-radius: 4px;
+    border-width: 3px;
+    padding: 3px;
+    */
+}
+
+li a.menu {
+    list-style-type: none;
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3%;
+    font-size: 82%;
+    letter-spacing: 0.5px;
+}
+
+li a.activemenu {
+    list-style-type: none;
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3%;
+    font-size: 82%;
+    border-bottom: 2px solid #F16A70;
+    letter-spacing: 0.5px;
+}
+/* Hr */
+hr.h {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+
+}
+/* T img */
+img.image {
+    height: 5%;
+    width: 4%;
+    float: right;
+    margin-right: 3%;
+    margin-top: -0.4%;
+}
+
+/* Styling active, hover and visited */
+a.menu:hover {
+    color: /* Blue ish #55BCC9 */ orange;
+}
+

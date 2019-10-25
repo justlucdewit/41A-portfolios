@@ -16,3 +16,42 @@ p{
     top: 50px;
     color: black;
 }
+
+nav.navBar ul {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 15px;
+    overflow: hidden;
+    background-color: ivory;
+    margin-bottom: 5px;
+    top: 0;
+    box-shadow: 0px 1px 5px #27272780;
+    border-radius: 2%;
+    position: sticky;
+}
+
+nav.navBar ul li {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+nav.navBar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    text-align: center;
+}
+
+#return {
+    float: right;
+}
+
+#active {
+    color: black;
+}
