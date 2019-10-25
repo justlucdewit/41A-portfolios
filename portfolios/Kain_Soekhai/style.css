@@ -7,6 +7,9 @@
 
 body{
     background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 p{
@@ -47,11 +50,35 @@ nav.navBar ul li a {
     color: #808080;
     text-align: center;
 }
-
+nav.navBar li:hover {
+    background-color: rgb(0, 162, 255);
+    
+ }
 #return {
     float: right;
 }
 
 #active {
     color: black;
+}
+#contactList li {
+    list-style-type: none;
+}
+
+#contactText {
+    font-size: 150%;
+}
+
+.contactInfo {
+    margin: 1px;
+    padding: 15px;
+}
+
+.contactInfo a {
+    color: #150030;
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    color: #00115e;    
 }
