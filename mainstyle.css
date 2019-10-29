@@ -59,7 +59,7 @@
 	border-radius: 4px;
 	margin: 10px;
 	padding: 10px;
-	text-align: center;
+	text-align: center center;
 }
 
 .link-card{
@@ -68,11 +68,12 @@
 }
 
 .pfp{
-	display: inline-block;
+	display: inline;
 	width: 100px;
 	height: 100px;
+	vertical-align: middle;
 }
 
 .name{
-	
+	padding-left: 10%;
 }
