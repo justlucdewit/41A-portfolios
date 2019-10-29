@@ -1,84 +1,91 @@
-#header{
-    font-family: 'Roboto', sans-serif;
-    position: fixed;
-    top: 20px;
-}
+#header                                      {
+    font-family: 'Roboto', sans-serif        ;
+    position: fixed                          ;
+    top: 20px                                ;
+                                             }
 
+body                                         {
+    background-color: white                ;
+    font-family: 'Roboto', sans-serif        ;
+    margin: 0                                ;
+    padding: 0                               ;
+                                             }
 
-body{
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+p                                            {
+    font-family: 'Roboto', sans-serif        ;
+    font-size: 22px                          ;
+    position: relative                       ;
+    top: 50px                                ;
+    color: black                           ;
+                                             }
 
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    position: relative;
-    top: 50px;
-    color: black;
-}
+nav.navBar ul                                {
+    font-family: 'Roboto', sans-serif        ;
+    list-style-type: none                    ;
+    margin: 0                                ;
+    padding-left: 15px                       ;
+    overflow: hidden                         ;
+    background-color: ivory                ;
+    margin-bottom: 5px                       ;
+    top: 0                                   ;
+    box-shadow: 0px 1px 5px #27272780      ;
+    border-radius: 2%                        ;
+    position: sticky                         ;
+                                             }
 
-nav.navBar ul {
-    font-family: 'Roboto', sans-serif;
-    list-style-type: none;
-    margin: 0;
-    padding-left: 15px;
-    overflow: hidden;
-    background-color: ivory;
-    margin-bottom: 5px;
-    top: 0;
-    box-shadow: 0px 1px 5px #27272780;
-    border-radius: 2%;
-    position: sticky;
-}
+nav.navBar ul li                             {
+    font-family: 'Roboto', sans-serif        ;
+    display: block                           ;
+    color: #808080                         ;
+    text-align: center                       ;
+    padding: 14px 16px                       ;
+    text-decoration: none                    ;
+    float: left                              ;
+                                             }
 
-nav.navBar ul li {
-    font-family: 'Roboto', sans-serif;
-    display: block;
-    color: #808080;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: left;
-}
+nav.navBar ul li a                           {
+    text-decoration: none                    ;
+    font-family: 'Roboto', sans-serif        ;
+    color: #808080                         ;
+    text-align: center                       ;
+                                             }
+nav.navBar li:hover                          {
+    background-color: rgb(0, 162, 255)     ;
+                                             }
+#return                                      {
+    float: right                             ;
+                                             }
 
-nav.navBar ul li a {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    color: #808080;
-    text-align: center;
-}
-nav.navBar li:hover {
-    background-color: rgb(0, 162, 255);
-    
- }
-#return {
-    float: right;
-}
+#active                                      {
+    color: black                           ;
+                                             }
 
-#active {
-    color: black;
-}
-#contactList li {
-    list-style-type: none;
-}
+#contactList li                              {
+    list-style-type: none                    ;
+                                             }
 
-#contactText {
-    font-size: 150%;
-}
+#contactText                                 {
+    font-size: 150%                          ;
+                                             }
 
-.contactInfo {
-    margin: 1px;
-    padding: 15px;
-}
+.contactInfo                                 {
+    margin: 1px                              ;
+    padding: 15px                            ;
+                                             }
 
-.contactInfo a {
-    color: #150030;
-    text-decoration: none;
-}
+.contactInfo a                               {
+    color: #150030                         ;
+    text-decoration: none                    ;
+                                             }
 
-.contactInfo a:hover {
-    color: #00115e;    
-}
+.contactInfo a:hover                         {
+    color: #00115e                         ;    
+                                             }
+
+#studyExperience li                          {
+    list-style-type: none                    ;
+                                             }
+
+#workingExperience li                        {
+    list-style-type: none                    ;
+                                             }
