@@ -81,3 +81,11 @@ nav.navBar li:hover                          {
 .contactInfo a:hover                         {
     color: #00115e                         ;    
                                              }
+
+#studyExperience li                          {
+    list-style-type: none                    ;
+                                             }
+
+#workingExperience li                        {
+    list-style-type: none                    ;
+                                             }
