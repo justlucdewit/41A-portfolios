@@ -1,6 +1,11 @@
 @font-face {
 	font-family: Lucida;
-	src: url(Lucida Handwriting Italic.ttf);
+	src: url(Lucida.ttf);
+}
+* {
+    font-family: Lucida;
+    padding: 0px;
+    margin: 0px;
 }
 body {
 	font-family: Lucida;
