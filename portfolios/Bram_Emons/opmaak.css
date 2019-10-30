@@ -1,0 +1,15 @@
+@font-face {
+	font-family: Lucida;
+	src: url(Lucida.ttf);
+}
+* {
+    font-family: Lucida;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+	font-family: Lucida;
+}
+h1 {
+	font-family: Lucida;
+}
