@@ -7,8 +7,8 @@
 body                                         {
     background-color: white                ;
     font-family: 'Roboto', sans-serif        ;
-    margin: 0                                ;
-    padding: 0                               ;
+    margin: 1px                              ;
+    padding: 1px                             ;
                                              }
 
 p                                            {
@@ -82,10 +82,54 @@ nav.navBar li:hover                          {
     color: #00115e                         ;    
                                              }
 
-#studyExperience li                          {
+#studyCur li , #studyPast li                 {
     list-style-type: none                    ;
                                              }
 
 #workingExperience li                        {
     list-style-type: none                    ;
+                                             }
+                                             
+#pastExp                                     {
+    left: 300px                              ;
+    position: absolute                       ;
+    top: 375px                               ;
+    font-size: 32px                          ;
+    float: left                              ;
+    margin-bottom: 20px                      ; 
+    padding: 17px                            ;
+                                             }
+
+#workExp                                     {
+    position: absolute                       ;
+    font-size: 18px                          ;
+    left: 340px                              ;
+    top: 460px                               ;
+    float: left                              ;
+    margin-top: 10px                         ;
+                                             }         
+                                             
+#pastStud                                    {
+    font-size: 32px                          ;
+    top: 110px                               ;
+    left: 160px                              ;
+                                             }  
+
+#studP                                       {
+    top: 310px                               ;
+    position: absolute                       ;
+    left: 180px                              ;
+    font-size: 18px                          ;
+                                             }
+
+#curStud                                     {
+    left: 10px                               ;
+    font-size: 32px                          ;
+                                             }
+
+#stud                                        {
+    top: 180px                               ;
+    left: 10px                               ;
+    position: absolute                       ;
+    font-size: 18px                          ;
                                              }
