@@ -153,15 +153,18 @@ form {
 
 #t1, #t2, #t3, #t4 {
 	border: 2px solid lightgray;
-	border-radius: 4px;
+	border-radius: 10px;
 	padding: 2%;
+	
 }
 
 #t5 {
-	border-radius: 4px;
+	border-radius: 100px;
+	border: hidden;
 	padding: 2%;
 	/* border: 2px solid red; */
 	width: 104%;
+
 }
 textarea {
 	text-decoration: none;
