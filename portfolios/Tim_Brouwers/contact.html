@@ -1,14 +1,16 @@
 <!DOCTYPE HTML>
 <html lang="ne">
-    <head>
-        <title>Contact</title>
-        <meta charset="UTF-8">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
         <div class="header">
             <ul class="head">
                 <li>
@@ -21,15 +23,45 @@
             </ul>
             <hr class="h">
         </div>
+    </nav>
+    <h1 class="formhead">Have some questions?</h1>
+    <form name="form1" action="" method="post">
+    <table>
+        <tr>
+            <td><input type="text" name="t1" id="t1" maxlength="15" size="39" placeholder="First name"></td>
+            <br>
+        </tr>
+        <tr>
+            <td><input type="text" name="t2" id="t2" maxlength="15" size="39" placeholder="Last name"></td>
+            <br>
+        </tr>
+        <tr>
+            <td><input type="email" name="t3" id="t3" size="39" placeholder="What's your email?"></td>
+            <br>
+        </tr>
+        <tr>
+            <td><textarea id="t4" rows="4" cols="16" placeholder="Your questions.."></textarea><br></td>
+        </tr>
+        <tr>
+            <td><input id="t5" type="submit" value="SEND MESSAGE"></td>
+        </tr>
+    </table>
+    </form>
+
+<!--              -->
+
+    <div id="contact">
+        <h1 class="contacthead">Contact</h1>
         <h1 class="headertext"><a class="headerlink" target="_blank" href="mailto:timbrouwers1@gmail.com">E-mail</a></h1>
-            <p class="text">For educational or business purposes you can E-mail me <a class="textlink" target="_blank" href="mailto:timbrouwers1@gmail.com">here</a></p>
-            <p class="text">Or write me a e-mail at timbrouwers1@gmail.com</p>
+        <p class="text">You can write me at: timbrouwers1@gmail.com <a class="textlink" target="_blank" href="mailto:timbrouwers1@gmail.com">or click here</a></p>
         <h1 class="headertext">Phone</h1>
-            <p class="text">06- </p>
+        <p class="text">06- </p>
         <h1 class="headertext">LinkedIn</h1>
-            <p class="text">Click here</p>
+        <p class="text">Click here</p>
         <h1 class="headertext"><a class="headerlink" target="_blank" href="https://github.com/xl3ehindTim">Github</a></h1>
-            <p class="text">You can look me up <a class="textlink" target="_blank" href="https://github.com/xl3ehindTim">by pressing this link</a></p>
-  <!--  <a href="mailto:timbrouwers1@gmail.com"><img class="small" src="images/gmail.svg"></a> -->
-    </body>
+        <p class="text">You can look me up <a class="textlink" target="_blank" href="https://github.com/xl3ehindTim">by pressing this link</a></p>
+        <!--  <a href="mailto:timbrouwers1@gmail.com"><img class="small" src="images/gmail.svg"></a> -->
+    </div>
+</body>
+
 </html>
