@@ -1,0 +1,43 @@
+
+body {color: green;}
+body{background-color: rgb(200, 239, 249)}
+
+h1 {color: #ffffff;}
+
+h2{color :rgb(51,204,0);}
+
+
+h3{color: white}
+h3{text-shadow: 2px 2px 2px #FF0000}
+
+i{color: rgb(255,0,0);}
+
+b{color: blue;}
+
+td{color: black}
+td{text-shadow: 2px 2px 2px #aac9f1}
+img{
+	border-radius: 15px
+}
+td{color: white}
+td{text-shadow: 1px 1px 1px}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+.button {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+
