@@ -1,3 +1,9 @@
+/**     Color pallet
+f6f6f6
+ee2b47
+2c2e3e
+34374c
+**/
 #header                                      {
     font-family: 'Roboto', sans-serif        ;
     position: fixed                          ;
@@ -5,10 +11,10 @@
                                              }
 
 body                                         {
-    background-color: white                ;
+    background-color: #34374c              ;
     font-family: 'Roboto', sans-serif        ;
-    margin: 0                                ;
-    padding: 0                               ;
+    margin: 0px                              ;
+    padding: 0px                             ;
                                              }
 
 p                                            {
@@ -16,27 +22,31 @@ p                                            {
     font-size: 22px                          ;
     position: relative                       ;
     top: 50px                                ;
-    color: black                           ;
+    color: #f6f6f6                         ;
+                                             }
+
+li                                           {
+    color: #f6f6f6                         ;
                                              }
 
 nav.navBar ul                                {
     font-family: 'Roboto', sans-serif        ;
     list-style-type: none                    ;
-    margin: 0                                ;
+    margin: 0px                              ;
     padding-left: 15px                       ;
     overflow: hidden                         ;
-    background-color: ivory                ;
+    background-color: #2c2e3e              ;
     margin-bottom: 5px                       ;
-    top: 0                                   ;
-    box-shadow: 0px 1px 5px #27272780      ;
+    top: 0px                                 ;
     border-radius: 2%                        ;
     position: sticky                         ;
                                              }
 
 nav.navBar ul li                             {
+    margin-top: 0px;
     font-family: 'Roboto', sans-serif        ;
     display: block                           ;
-    color: #808080                         ;
+    color: #f6f6f6                         ;
     text-align: center                       ;
     padding: 14px 16px                       ;
     text-decoration: none                    ;
@@ -46,19 +56,23 @@ nav.navBar ul li                             {
 nav.navBar ul li a                           {
     text-decoration: none                    ;
     font-family: 'Roboto', sans-serif        ;
-    color: #808080                         ;
+    color: #f6f6f6                         ;
     text-align: center                       ;
                                              }
-nav.navBar li:hover                          {
-    background-color: rgb(0, 162, 255)     ;
-                                             }
+
+                                             
 #return                                      {
-    float: right                             ;
+     float: right                            ;
+                                             }
+                                              
+#active                                      {
+    color: #f70776                      ;
+                                             }
+                                           
+nav.navBar ul li:hover                       {
+   background-color: #ee2b47               ;                       ;
                                              }
 
-#active                                      {
-    color: black                           ;
-                                             }
 
 #contactList li                              {
     list-style-type: none                    ;
@@ -79,13 +93,57 @@ nav.navBar li:hover                          {
                                              }
 
 .contactInfo a:hover                         {
-    color: #00115e                         ;    
+    color: #2c2e3e                        ;    
                                              }
 
-#studyExperience li                          {
+#studyCur li , #studyPast li                 {
     list-style-type: none                    ;
                                              }
 
 #workingExperience li                        {
     list-style-type: none                    ;
+                                             }
+                                             
+#pastExp                                     {
+    left: 300px                              ;
+    position: absolute                       ;
+    top: 375px                               ;
+    font-size: 32px                          ;
+    float: left                              ;
+    margin-bottom: 20px                      ; 
+    padding: 17px                            ;
+                                             }
+
+#workExp                                     {
+    position: absolute                       ;
+    font-size: 18px                          ;
+    left: 340px                              ;
+    top: 460px                               ;
+    float: left                              ;
+    margin-top: 10px                         ;
+                                             }         
+                                             
+#pastStud                                    {
+    font-size: 32px                          ;
+    top: 110px                               ;
+    left: 160px                              ;
+                                             }  
+
+#studP                                       {
+    top: 310px                               ;
+    position: absolute                       ;
+    left: 180px                              ;
+    font-size: 18px                          ;
+                                             }
+
+#curStud                                     {
+    left: 10px                               ;
+    font-size: 32px                          ;
+                                             }
+
+#stud                                        {
+    top: 180px                               ;
+    left: 10px                               ;
+    position: absolute                       ;
+    font-size: 18px                          ;
                                              }
