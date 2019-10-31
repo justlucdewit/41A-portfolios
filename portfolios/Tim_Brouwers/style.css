@@ -32,6 +32,18 @@ li a.menu {
 	font-size: 82%;
 	letter-spacing: 0.5px;
 }
+
+li a.menutim {
+	list-style-type: none;
+	font-weight: bold;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: -1%;
+	margin-right: 26%;
+	font-size: 90%;
+	letter-spacing: 0.5px;
+}
 /* Contact */
 li a.menucontact {
 	list-style-type: none;
@@ -41,7 +53,7 @@ li a.menucontact {
 	text-decoration: none;
 	font-size: 82%;
 	letter-spacing: 0.5px;
-	margin-left: 32.5%;
+	margin-left: 35.5%;
 }
 /* Contact page */
 li a.activemenucontact {
@@ -52,7 +64,7 @@ li a.activemenucontact {
 	text-decoration: none;
 	font-size: 82%;
 	letter-spacing: 0.5px;
-	margin-left: 32.5%;
+	margin-left: 35.5%;
 	color:#55BCC9;
 }
 /* Active menu item */
@@ -67,6 +79,8 @@ li a.activemenu {
 	color:#55BCC9;
 	letter-spacing: 0.5px;
 }
+
+
 /* Hr */
 hr.h {
 	display: block;
