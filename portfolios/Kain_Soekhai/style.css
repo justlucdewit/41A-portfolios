@@ -31,7 +31,7 @@ p                                            {
     color: #f6f6f6                         ;
                                              }
 
-
+/** Navbar CSS **/
 nav.navBar ul                                {
     font-family: 'Roboto', sans-serif        ;
     list-style-type: none                    ;
@@ -108,7 +108,9 @@ nav.navBar ul li a:hover , #active:hover     {
 #studyCur li , #studyPast li                 {
     list-style-type: none                    ;
                                              }
+/** End Navbar CSS **/
 
+/** Begin of Experience CSS **/
 #workingExperience li                        {
     list-style-type: none                    ;
                                              }
@@ -188,3 +190,5 @@ nav.navBar ul li a:hover , #active:hover     {
     top: 360px                               ;
     left: 530px                              ;   
                                              }
+
+/** End of Experience CSS **/
