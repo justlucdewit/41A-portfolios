@@ -191,6 +191,7 @@ textarea {
 	body {
 		font-family: 'Roboto', sans-serif, Helvetica;
 	}
+	/* HEADER FOR MOBILE */
 	li a.menutim {
 		display: block;
 		margin-right: 40%;
@@ -203,5 +204,56 @@ textarea {
 	li a.menucontact, li a.activemenucontact {
 		margin-left: 3%;
 		margin-right: 10%;
+	}
+
+	/* CONTACT */
+	div.contact {
+		position: relative;
+	}
+	
+	.contacthead {
+		margin-left: 20%;
+		font-size: 125%;
+	}
+	.headertext {
+
+		margin-left: 25%;
+		margin-bottom: -1%;
+		font-size: 110%;
+	}
+	.text {
+		margin-left: 25%;
+		margin-bottom: -0.9%;
+
+	}
+
+
+	/* FORM CONTACT.HTML */
+	/* Fill in form contact.html */
+	form {
+		float: right;
+		margin-right: 41%;
+	}
+
+	.formhead {
+		font-size: 115%;
+		margin: 0;
+		margin-left: 20%;
+		float: left;
+		margin-bottom: -15%;
+	}
+
+	#t1, #t2, #t3, #t4 {
+		margin-left: 32.5%;
+	}
+
+	#t5 {
+		margin-left: 32.5%;
+		margin-bottom: 5%;
+	}
+	textarea {
+		margin-left: 32.5%;
+		height: 67px;
+		width: 252px;
 	}
 }
