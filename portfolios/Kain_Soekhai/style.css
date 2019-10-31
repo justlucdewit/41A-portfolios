@@ -1,8 +1,14 @@
 /**     Color pallet
-f6f6f6
-ee2b47
-2c2e3e
-34374c
+#f6f6f6
+#ee2b47
+#2c2e3e
+#34374c
+
+#ff71ce
+#01cdfe
+#05ffa1
+#b967ff
+#fffb96
 **/
 #header                                      {
     font-family: 'Roboto', sans-serif        ;
@@ -25,9 +31,6 @@ p                                            {
     color: #f6f6f6                         ;
                                              }
 
-li                                           {
-    color: #f6f6f6                         ;
-                                             }
 
 nav.navBar ul                                {
     font-family: 'Roboto', sans-serif        ;
@@ -58,6 +61,11 @@ nav.navBar ul li a                           {
     font-family: 'Roboto', sans-serif        ;
     color: #f6f6f6                         ;
     text-align: center                       ;
+    padding: 12px                            ;
+    margin: 1px                              ;
+    font-weight: bold                        ;
+    letter-spacing: 2px                      ;
+    font-size: 18px                          ;
                                              }
 
                                              
@@ -66,11 +74,12 @@ nav.navBar ul li a                           {
                                              }
                                               
 #active                                      {
-    color: #f70776                      ;
+    color: #ee2b47                         ;
                                              }
                                            
-nav.navBar ul li:hover                       {
-   background-color: #ee2b47               ;                       ;
+nav.navBar ul li a:hover , #active:hover     {
+   background-color: #ee2b47               ; 
+   color: #ffffff;                         ;
                                              }
 
 
@@ -88,12 +97,12 @@ nav.navBar ul li:hover                       {
                                              }
 
 .contactInfo a                               {
-    color: #150030                         ;
+    color: #ffffff                         ;
     text-decoration: none                    ;
                                              }
 
 .contactInfo a:hover                         {
-    color: #2c2e3e                        ;    
+    color: #ffffff                         ;    
                                              }
 
 #studyCur li , #studyPast li                 {
@@ -105,9 +114,10 @@ nav.navBar ul li:hover                       {
                                              }
                                              
 #pastExp                                     {
-    left: 300px                              ;
+    color: #ff71ce                         ;
+    left: 320px                              ;
     position: absolute                       ;
-    top: 375px                               ;
+    top: 395px                               ;
     font-size: 32px                          ;
     float: left                              ;
     margin-bottom: 20px                      ; 
@@ -115,21 +125,24 @@ nav.navBar ul li:hover                       {
                                              }
 
 #workExp                                     {
+    color: #ff71ce                         ;
     position: absolute                       ;
     font-size: 18px                          ;
-    left: 340px                              ;
-    top: 460px                               ;
+    left: 360px                              ;
+    top: 480px                               ;
     float: left                              ;
     margin-top: 10px                         ;
                                              }         
                                              
 #pastStud                                    {
+    color: #05ffa1                         ;
     font-size: 32px                          ;
     top: 110px                               ;
     left: 160px                              ;
                                              }  
 
 #studP                                       {
+    color: #05ffa1                         ;
     top: 310px                               ;
     position: absolute                       ;
     left: 180px                              ;
@@ -137,13 +150,41 @@ nav.navBar ul li:hover                       {
                                              }
 
 #curStud                                     {
+    color: 	#fffb96                        ;
     left: 10px                               ;
     font-size: 32px                          ;
                                              }
 
 #stud                                        {
+    color: 	#fffb96                        ;
     top: 180px                               ;
     left: 10px                               ;
     position: absolute                       ;
     font-size: 18px                          ;
+                                             }
+
+.dlbutton                                    {
+    font-size: 18px                          ;
+    font-weight: bolder                      ;
+    background-color: #ee2b47              ;
+    border: none                             ;
+    color: white                           ;
+    cursor: not-allowed                      ;
+    position: relative                       ;
+    padding: 20px 20px                       ;
+    margin-top: 40px                         ;
+    margin-left: 320px                       ;    
+                                             }
+
+#CVText                                      {
+    position: relative                       ;
+    max-width: 50%                           ;
+    color: #b967ff                         ;
+    font-size: 32px                          ;
+                                             }
+
+#CV                                          {
+    position: relative                       ;
+    top: 360px                               ;
+    left: 530px                              ;   
                                              }
