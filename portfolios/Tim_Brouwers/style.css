@@ -189,4 +189,7 @@ textarea {
 }
 
 @media (max-width: 700px) {
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
 }
