@@ -105,90 +105,73 @@ nav.navBar ul li a:hover , #active:hover     {
     color: #ffffff                         ;    
                                              }
 
-#studyCur li , #studyPast li                 {
+/** End Navbar CSS **/
+#studyCur li                                 {
     list-style-type: none                    ;
                                              }
-/** End Navbar CSS **/
 
 /** Begin of Experience CSS **/
-#workingExperience li                        {
-    list-style-type: none                    ;
-                                             }
-                                             
-#pastExp                                     {
-    color: #ff71ce                         ;
-    left: 320px                              ;
-    position: absolute                       ;
-    top: 395px                               ;
-    font-size: 32px                          ;
-    float: left                              ;
-    margin-bottom: 20px                      ; 
-    padding: 17px                            ;
-                                             }
 
-#workExp                                     {
-    color: #ff71ce                         ;
-    position: absolute                       ;
-    font-size: 18px                          ;
-    left: 360px                              ;
-    top: 480px                               ;
-    float: left                              ;
-    margin-top: 10px                         ;
-                                             }         
-                                             
-#pastStud                                    {
-    color: #05ffa1                         ;
-    font-size: 32px                          ;
-    top: 110px                               ;
-    left: 160px                              ;
-                                             }  
+#studyCur li, #studyPast li, #workingExperience li{
+    list-style-type: none;
+}
 
-#studP                                       {
-    color: #05ffa1                         ;
-    top: 310px                               ;
-    position: absolute                       ;
-    left: 180px                              ;
-    font-size: 18px                          ;
-                                             }
+#curStud {
+    font-size: 32px;
+    color: #ff71ce;
+    margin-left: 50px;
+}
 
-#curStud                                     {
-    color: 	#fffb96                        ;
-    left: 10px                               ;
-    font-size: 32px                          ;
-                                             }
+#stud {
+    font-size: 18px;
+    color: #ff71ce;
+    margin-top: 60px;
+    margin-left: 70px;
+}
 
-#stud                                        {
-    color: 	#fffb96                        ;
-    top: 180px                               ;
-    left: 10px                               ;
-    position: absolute                       ;
-    font-size: 18px                          ;
-                                             }
+#pastStud {
+    font-size: 32px;
+    color: #05ffa1;
+    margin-top: 30px;
+    margin-left: 280px;
+}
 
-.dlbutton                                    {
-    font-size: 18px                          ;
-    font-weight: bolder                      ;
-    background-color: #ee2b47              ;
-    border: none                             ;
-    color: white                           ;
-    cursor: not-allowed                      ;
-    position: relative                       ;
-    padding: 20px 20px                       ;
-    margin-top: 40px                         ;
-    margin-left: 320px                       ;    
-                                             }
+#studP {
+    font-size: 18px;
+    color: #05ffa1;
+    margin-top: 60px;
+    margin-left: 300px;
+}
 
-#CVText                                      {
-    position: relative                       ;
-    max-width: 50%                           ;
-    color: #b967ff                         ;
-    font-size: 32px                          ;
-                                             }
+#pastExp {
+    font-size: 32px;
+    color: #fffb96;
+    margin-top:30px;
+    margin-left: 510px;
+}
 
-#CV                                          {
-    position: relative                       ;
-    top: 360px                               ;
-    left: 530px                              ;   
-                                             }
+#workExp {
+    font-size: 18px;
+    color: #fffb96;
+    margin-top: 60px;
+    margin-left: 530px;
+}
 
+#CVText {
+    font-size: 32px;
+    color: #b967ff;
+    margin-top: 30px;
+    margin-left: 740px;
+}
+
+.dlbutton {
+    font-size: 18px;
+    padding: 20px 30px;
+    background-color: #ee2b47;
+    cursor: not-allowed;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 1060px;
+}
 /** End of Experience CSS **/
