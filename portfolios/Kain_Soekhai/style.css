@@ -1,8 +1,14 @@
 /**     Color pallet
-f6f6f6
-ee2b47
-2c2e3e
-34374c
+#f6f6f6
+#ee2b47
+#2c2e3e
+#34374c
+
+#ff71ce
+#01cdfe
+#05ffa1
+#b967ff
+#fffb96
 **/
 #header                                      {
     font-family: 'Roboto', sans-serif        ;
@@ -25,10 +31,7 @@ p                                            {
     color: #f6f6f6                         ;
                                              }
 
-li                                           {
-    color: #f6f6f6                         ;
-                                             }
-
+/** Navbar CSS **/
 nav.navBar ul                                {
     font-family: 'Roboto', sans-serif        ;
     list-style-type: none                    ;
@@ -58,6 +61,11 @@ nav.navBar ul li a                           {
     font-family: 'Roboto', sans-serif        ;
     color: #f6f6f6                         ;
     text-align: center                       ;
+    padding: 12px                            ;
+    margin: 1px                              ;
+    font-weight: bold                        ;
+    letter-spacing: 2px                      ;
+    font-size: 18px                          ;
                                              }
 
                                              
@@ -66,11 +74,12 @@ nav.navBar ul li a                           {
                                              }
                                               
 #active                                      {
-    color: #f70776                      ;
+    color: #ee2b47                         ;
                                              }
                                            
-nav.navBar ul li:hover                       {
-   background-color: #ee2b47               ;                       ;
+nav.navBar ul li a:hover , #active:hover     {
+   background-color: #ee2b47               ; 
+   color: #ffffff;                         ;
                                              }
 
 
@@ -88,62 +97,81 @@ nav.navBar ul li:hover                       {
                                              }
 
 .contactInfo a                               {
-    color: #150030                         ;
+    color: #ffffff                         ;
     text-decoration: none                    ;
                                              }
 
 .contactInfo a:hover                         {
-    color: #2c2e3e                        ;    
+    color: #ffffff                         ;    
                                              }
 
-#studyCur li , #studyPast li                 {
+/** End Navbar CSS **/
+#studyCur li                                 {
     list-style-type: none                    ;
                                              }
 
-#workingExperience li                        {
-    list-style-type: none                    ;
-                                             }
-                                             
-#pastExp                                     {
-    left: 300px                              ;
-    position: absolute                       ;
-    top: 375px                               ;
-    font-size: 32px                          ;
-    float: left                              ;
-    margin-bottom: 20px                      ; 
-    padding: 17px                            ;
-                                             }
+/** Begin of Experience CSS **/
 
-#workExp                                     {
-    position: absolute                       ;
-    font-size: 18px                          ;
-    left: 340px                              ;
-    top: 460px                               ;
-    float: left                              ;
-    margin-top: 10px                         ;
-                                             }         
-                                             
-#pastStud                                    {
-    font-size: 32px                          ;
-    top: 110px                               ;
-    left: 160px                              ;
-                                             }  
+#studyCur li, #studyPast li, #workingExperience li{
+    list-style-type: none;
+}
 
-#studP                                       {
-    top: 310px                               ;
-    position: absolute                       ;
-    left: 180px                              ;
-    font-size: 18px                          ;
-                                             }
+#curStud {
+    font-size: 32px;
+    color: #ff71ce;
+    margin-left: 50px;
+}
 
-#curStud                                     {
-    left: 10px                               ;
-    font-size: 32px                          ;
-                                             }
+#stud {
+    font-size: 18px;
+    color: #ff71ce;
+    margin-top: 60px;
+    margin-left: 70px;
+}
 
-#stud                                        {
-    top: 180px                               ;
-    left: 10px                               ;
-    position: absolute                       ;
-    font-size: 18px                          ;
-                                             }
+#pastStud {
+    font-size: 32px;
+    color: #05ffa1;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+
+#studP {
+    font-size: 18px;
+    color: #05ffa1;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+#pastExp {
+    font-size: 32px;
+    color: #fffb96;
+    margin-top:30px;
+    margin-left: 510px;
+}
+
+#workExp {
+    font-size: 18px;
+    color: #fffb96;
+    margin-top: 60px;
+    margin-left: 530px;
+}
+
+#CVText {
+    font-size: 32px;
+    color: #b967ff;
+    margin-top: 30px;
+    margin-left: 740px;
+}
+
+.dlbutton {
+    font-size: 18px;
+    padding: 20px 30px;
+    background-color: #ee2b47;
+    cursor: not-allowed;
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 1060px;
+}
+/** End of Experience CSS **/
