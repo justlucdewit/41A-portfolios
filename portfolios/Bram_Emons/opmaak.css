@@ -13,3 +13,67 @@ body {
 h1 {
 	font-family: Lucida;
 }
+/*css voor de knoppen*/
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*kleuren voor de knoppen*/
+/* Green */
+.index {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.index:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.ervaring {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.ervaring:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.contact {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.contact:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
