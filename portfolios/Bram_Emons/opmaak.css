@@ -25,15 +25,6 @@ a {
 a:hover {
   color: #00ff00;
 }
-.bovenbutton {
-/*  background-color: red;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding-right: 10px;
-  border: 5px solid blue;
-  border-radius: 5px;*/
-}
 .bovenbutton h5 {
   float: right;
   width: 150px;
