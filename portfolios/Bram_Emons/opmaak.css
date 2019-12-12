@@ -2,21 +2,69 @@
 	font-family: Lucida;
 	src: url(Lucida.ttf);
 }
-* {
-    font-family: Lucida;
-    padding: 0px;
-    margin: 0px;
+*{
+  font-family: Lucida;
+  background-color: black;
+  color: #00ff00;
+  margin: 0px;
+  padding: 0px;
 }
 body {
-	font-family: Lucida;
+  font-family: Lucida;
+  margin-left: 240px;
 }
 h1 {
-	font-family: Lucida;
+  font-family: Lucida;
+}
+li {
+  color: #818181;
+}
+a {
+  color: #818181;
+}
+a:hover {
+  color: #00ff00;
+}
+.bovenbutton {
+/*  background-color: red;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 10px;
+  border: 5px solid blue;
+  border-radius: 5px;*/
+}
+.bovenbutton h5 {
+  float: right;
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #00ff00;
+  border-radius: 5px;
+}
+.bovenbutton h5:hover {
+  float: right;
+  width: 150px;
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  background-color: #00ff00;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid white;
+  border-radius: 5px;
 }
 /*css voor de knoppen*/
 .btn {
   border: 2px solid black;
-  background-color: white;
+  background-color: black;
   color: black;
   padding: 14px 28px;
   font-size: 16px;
@@ -76,4 +124,48 @@ h1 {
 
 .default:hover {
   background: #e7e7e7;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #00ff00;
+  display: block;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #00ff00;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
