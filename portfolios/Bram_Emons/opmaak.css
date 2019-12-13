@@ -25,6 +25,12 @@ a {
 a:hover {
   color: #00ff00;
 }
+p {
+
+}
+.here {
+  color: #00ff00;
+}
 .bovenbutton h5 {
   float: right;
   width: 150px;
